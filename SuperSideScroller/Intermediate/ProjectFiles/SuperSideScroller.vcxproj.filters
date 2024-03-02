@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SuperSideScroller.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SuperSideScroller.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SuperSideScrollerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SuperSideScroller">
+      <UniqueIdentifier>{EC674AF5-0331-3CBE-9B07-D326C8F496D8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SuperSideScroller\SuperSideScroller.Build.cs">
+      <Filter>Source\SuperSideScroller</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SuperSideScroller\SuperSideScroller.cpp">
+      <Filter>Source\SuperSideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SuperSideScroller\SuperSideScroller.h">
+      <Filter>Source\SuperSideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SuperSideScroller\SuperSideScrollerCharacter.cpp">
+      <Filter>Source\SuperSideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SuperSideScroller\SuperSideScrollerCharacter.h">
+      <Filter>Source\SuperSideScroller</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SuperSideScroller\SuperSideScrollerGameMode.cpp">
+      <Filter>Source\SuperSideScroller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SuperSideScroller\SuperSideScrollerGameMode.h">
+      <Filter>Source\SuperSideScroller</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

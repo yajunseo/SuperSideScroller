@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SuperSideScroller",
+			"Path": "..\\Source\\SuperSideScroller.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SuperSideScrollerEditor",
+			"Path": "..\\Source\\SuperSideScrollerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

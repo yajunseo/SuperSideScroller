@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Unreal5 Projects\\SuperScroller\\SuperSideScroller\\Source\\SuperSideScroller\\SuperSideScroller.Build.cs",
+		"C:\\Unreal5 Projects\\SuperScroller\\SuperSideScroller\\Source\\SuperSideScroller.Target.cs",
+		"C:\\Unreal5 Projects\\SuperScroller\\SuperSideScroller\\Source\\SuperSideScrollerEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

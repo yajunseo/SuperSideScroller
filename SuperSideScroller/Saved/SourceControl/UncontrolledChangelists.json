@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+			]
+		}
+	]
+}
