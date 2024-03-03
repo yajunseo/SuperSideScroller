@@ -12,4 +12,10 @@ ASuperSideScrollerGameMode::ASuperSideScrollerGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+
+	static ConstructorHelpers::FClassFinder<ACharacter> PlayerCharacterBPClass(TEXT("/Game/MainCharacter/Blueprints/BP_SuperSideScroller_MainCharacter"));
+	if (PlayerPawnBPClass.Class != NULL)
+	{
+		DefaultPawnClass = PlayerCharacterBPClass.Class;
+	}
 }

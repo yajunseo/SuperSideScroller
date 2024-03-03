@@ -6,7 +6,19 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/ThirdPerson/Input/IMC_Default.uasset",
-				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Blueprints/BP_SuperSideScroller_MainCharacter.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Blueprints/BP_NewBlueprint.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/7V/DE35K7XHVX8ZDLESKOUJ94.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Blueprints/AnimBP_SuperSideScroller_MainCharacter.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Mesh/Beta_HighLimbsGeoSG2.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Mesh/Beta_Joints_MAT.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Animation/Idle.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Mesh/MainCharacter.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Mesh/MainCharacter_PhysicsAsset.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Mesh/MainCharacter_Skeleton.uasset"
 			]
 		}
 	]
