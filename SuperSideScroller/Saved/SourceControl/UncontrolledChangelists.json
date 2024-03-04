@@ -9,8 +9,6 @@
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Blueprints/BP_SuperSideScroller_MainCharacter.uasset",
-				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Blueprints/BP_NewBlueprint.uasset",
-				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/7V/DE35K7XHVX8ZDLESKOUJ94.uasset",
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Blueprints/AnimBP_SuperSideScroller_MainCharacter.uasset",
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Mesh/Beta_HighLimbsGeoSG2.uasset",
@@ -18,7 +16,16 @@
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Animation/Idle.uasset",
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Mesh/MainCharacter.uasset",
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Mesh/MainCharacter_PhysicsAsset.uasset",
-				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Mesh/MainCharacter_Skeleton.uasset"
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Mesh/MainCharacter_Skeleton.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Characters/Mannequins/Animations/Quinn/BS_MF_Unarmed_WalkRun.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Animation/JumpEnd.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Animation/JumpingStart.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Animation/JumpLoop.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Animation/Running.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Animation/Throw.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Animation/Walking.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Blueprints/BP_NewBlueprint.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/7V/DE35K7XHVX8ZDLESKOUJ94.uasset"
 			]
 		}
 	]
