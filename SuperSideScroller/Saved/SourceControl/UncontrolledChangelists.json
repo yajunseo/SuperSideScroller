@@ -29,6 +29,15 @@
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Input/Sprint/IA_Sprint.uasset",
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Input/Sprint/IA_Throw.uasset",
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Animation/AM_Throw.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Enemy/ABP_Manny1.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Enemy/Blueprints/BP_Enemy.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Enemy/Blueprints/ABP_Manny1.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Enemy/Blueprints/AnimBP_Enemy.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Enemy/MI_Enemy01.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Enemy/Materials/MI_Enemy01.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Enemy/Materials/MI_Manny_01_Inst.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Enemy/Materials/MI_Manny_02_Inst.uasset",
+				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/Enemy/Materials/MI_Enemy02.uasset",
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/MainCharacter/Blueprints/BP_NewBlueprint.uasset",
 				"C:/Unreal5 Projects/SuperScroller/SuperSideScroller/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/7V/DE35K7XHVX8ZDLESKOUJ94.uasset"
 			]

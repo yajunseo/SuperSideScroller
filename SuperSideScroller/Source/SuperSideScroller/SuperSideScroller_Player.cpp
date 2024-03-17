@@ -55,5 +55,5 @@ void ASuperSideScroller_Player::StopSprint()
 
 void ASuperSideScroller_Player::ThrowProjectile()
 {
-	UE_LOG(LogTemp, Warning, TEXT("THROW PROJECTILE!"));
+	
 }
