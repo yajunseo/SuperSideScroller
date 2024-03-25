@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unreal5 projects\\superscroller\\supersidescroller\\intermediate\\build\\win64\\unrealeditor\\inc\\supersidescroller\\uht\\supersidescrollergamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unreal5 projects\\superscroller\\supersidescroller\\intermediate\\build\\win64\\x64\\supersidescrollereditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\unreal5 projects\\superscroller\\supersidescroller\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\supersidescroller\\definitions.supersidescroller.h",
+            "c:\\unreal5 projects\\superscroller\\supersidescroller\\source\\supersidescroller\\supersidescrollergamemode.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\unreal5 projects\\superscroller\\supersidescroller\\intermediate\\build\\win64\\unrealeditor\\inc\\supersidescroller\\uht\\supersidescrollergamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
