@@ -55,5 +55,12 @@ void ASuperSideScroller_Player::StopSprint()
 
 void ASuperSideScroller_Player::ThrowProjectile()
 {
-	
+	if(ThrowMontage)
+	{
+		bool bIsMontagePlaying = GetMesh()->GetAnimInstance()->Montage_IsPlaying(ThrowMontage);
+		if(!bIsMontagePlaying)
+		{
+			GetMesh()->GetAnimInstance()->Montage_Play(ThrowMontage, 1.0f);
+		}
+	}
 }

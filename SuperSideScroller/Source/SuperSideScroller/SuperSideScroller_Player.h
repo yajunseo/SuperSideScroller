@@ -32,4 +32,7 @@ protected:
 
 private:
 	bool bIsSprinting;
+
+	UPROPERTY(EditAnywhere)
+	class UAnimMontage* ThrowMontage;
 };

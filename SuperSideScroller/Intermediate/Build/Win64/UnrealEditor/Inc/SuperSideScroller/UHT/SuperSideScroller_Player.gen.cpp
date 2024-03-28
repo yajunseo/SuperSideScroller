@@ -9,6 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeSuperSideScroller_Player() {}
 // Cross Module References
+	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 	SUPERSIDESCROLLER_API UClass* Z_Construct_UClass_ASuperSideScroller_Player();
@@ -42,6 +43,10 @@ void EmptyLinkFunctionForGeneratedCodeSuperSideScroller_Player() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_IA_Throw_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_IA_Throw;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ThrowMontage_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_ThrowMontage;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -82,10 +87,18 @@ void EmptyLinkFunctionForGeneratedCodeSuperSideScroller_Player() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASuperSideScroller_Player_Statics::NewProp_IA_Throw = { "IA_Throw", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASuperSideScroller_Player, IA_Throw), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ASuperSideScroller_Player_Statics::NewProp_IA_Throw_MetaData), Z_Construct_UClass_ASuperSideScroller_Player_Statics::NewProp_IA_Throw_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASuperSideScroller_Player_Statics::NewProp_ThrowMontage_MetaData[] = {
+		{ "Category", "SuperSideScroller_Player" },
+		{ "ModuleRelativePath", "SuperSideScroller_Player.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASuperSideScroller_Player_Statics::NewProp_ThrowMontage = { "ThrowMontage", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASuperSideScroller_Player, ThrowMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ASuperSideScroller_Player_Statics::NewProp_ThrowMontage_MetaData), Z_Construct_UClass_ASuperSideScroller_Player_Statics::NewProp_ThrowMontage_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASuperSideScroller_Player_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASuperSideScroller_Player_Statics::NewProp_IC_Character,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASuperSideScroller_Player_Statics::NewProp_IA_Sprint,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASuperSideScroller_Player_Statics::NewProp_IA_Throw,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASuperSideScroller_Player_Statics::NewProp_ThrowMontage,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASuperSideScroller_Player_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASuperSideScroller_Player>::IsAbstract,
@@ -125,9 +138,9 @@ void EmptyLinkFunctionForGeneratedCodeSuperSideScroller_Player() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScroller_Player_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASuperSideScroller_Player, ASuperSideScroller_Player::StaticClass, TEXT("ASuperSideScroller_Player"), &Z_Registration_Info_UClass_ASuperSideScroller_Player, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASuperSideScroller_Player), 2495033081U) },
+		{ Z_Construct_UClass_ASuperSideScroller_Player, ASuperSideScroller_Player::StaticClass, TEXT("ASuperSideScroller_Player"), &Z_Registration_Info_UClass_ASuperSideScroller_Player, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASuperSideScroller_Player), 3183071416U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScroller_Player_h_3921700549(TEXT("/Script/SuperSideScroller"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScroller_Player_h_1410635968(TEXT("/Script/SuperSideScroller"),
 		Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScroller_Player_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScroller_Player_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
