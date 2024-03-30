@@ -138,9 +138,9 @@ void EmptyLinkFunctionForGeneratedCodeSuperSideScroller_Player() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScroller_Player_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASuperSideScroller_Player, ASuperSideScroller_Player::StaticClass, TEXT("ASuperSideScroller_Player"), &Z_Registration_Info_UClass_ASuperSideScroller_Player, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASuperSideScroller_Player), 3183071416U) },
+		{ Z_Construct_UClass_ASuperSideScroller_Player, ASuperSideScroller_Player::StaticClass, TEXT("ASuperSideScroller_Player"), &Z_Registration_Info_UClass_ASuperSideScroller_Player, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASuperSideScroller_Player), 2680441433U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScroller_Player_h_1410635968(TEXT("/Script/SuperSideScroller"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScroller_Player_h_2654794457(TEXT("/Script/SuperSideScroller"),
 		Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScroller_Player_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScroller_Player_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

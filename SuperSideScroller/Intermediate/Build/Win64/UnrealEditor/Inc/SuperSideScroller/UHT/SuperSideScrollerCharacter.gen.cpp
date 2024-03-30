@@ -9,11 +9,13 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeSuperSideScrollerCharacter() {}
 // Cross Module References
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
+	SUPERSIDESCROLLER_API UClass* Z_Construct_UClass_APlayerProjectile_NoRegister();
 	SUPERSIDESCROLLER_API UClass* Z_Construct_UClass_ASuperSideScrollerCharacter();
 	SUPERSIDESCROLLER_API UClass* Z_Construct_UClass_ASuperSideScrollerCharacter_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_SuperSideScroller();
@@ -56,6 +58,10 @@ void EmptyLinkFunctionForGeneratedCodeSuperSideScrollerCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_LookAction_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlayerProjectile_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_PlayerProjectile;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -158,6 +164,13 @@ void EmptyLinkFunctionForGeneratedCodeSuperSideScrollerCharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASuperSideScrollerCharacter, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_LookAction_MetaData), Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_LookAction_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_PlayerProjectile_MetaData[] = {
+		{ "Category", "SuperSideScrollerCharacter" },
+		{ "ModuleRelativePath", "SuperSideScrollerCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_PlayerProjectile = { "PlayerProjectile", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASuperSideScrollerCharacter, PlayerProjectile), Z_Construct_UClass_UClass, Z_Construct_UClass_APlayerProjectile_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_PlayerProjectile_MetaData), Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_PlayerProjectile_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_CameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_FollowCamera,
@@ -165,6 +178,7 @@ void EmptyLinkFunctionForGeneratedCodeSuperSideScrollerCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_JumpAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_MoveAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_LookAction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::NewProp_PlayerProjectile,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASuperSideScrollerCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASuperSideScrollerCharacter>::IsAbstract,
@@ -204,9 +218,9 @@ void EmptyLinkFunctionForGeneratedCodeSuperSideScrollerCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScrollerCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASuperSideScrollerCharacter, ASuperSideScrollerCharacter::StaticClass, TEXT("ASuperSideScrollerCharacter"), &Z_Registration_Info_UClass_ASuperSideScrollerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASuperSideScrollerCharacter), 3950229616U) },
+		{ Z_Construct_UClass_ASuperSideScrollerCharacter, ASuperSideScrollerCharacter::StaticClass, TEXT("ASuperSideScrollerCharacter"), &Z_Registration_Info_UClass_ASuperSideScrollerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASuperSideScrollerCharacter), 120813772U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScrollerCharacter_h_169478702(TEXT("/Script/SuperSideScroller"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScrollerCharacter_h_3155058907(TEXT("/Script/SuperSideScroller"),
 		Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScrollerCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_SuperSideScrollerCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
