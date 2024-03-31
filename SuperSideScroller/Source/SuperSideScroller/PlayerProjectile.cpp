@@ -3,6 +3,7 @@
 
 #include "PlayerProjectile.h"
 
+#include "EnemyBase.h"
 #include "Components/SphereComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 
@@ -24,7 +25,7 @@ APlayerProjectile::APlayerProjectile()
 
 	MeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComp"));
 	MeshComp->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
-
+	
 	InitialLifeSpan = 3.0f;
 	
 }
@@ -32,5 +33,16 @@ APlayerProjectile::APlayerProjectile()
 void APlayerProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
 	FVector NormalImpulse, const FHitResult& Hit)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Hit"));
+	AEnemyBase* Enemy = Cast<AEnemyBase>(OtherActor);
+
+	if(Enemy)
+	{
+		Enemy->DestroyEnemy();
+		Destroy();
+	}
+}
+
+void APlayerProjectile::ExplodeProjectile()
+{
+	Destroy();
 }
