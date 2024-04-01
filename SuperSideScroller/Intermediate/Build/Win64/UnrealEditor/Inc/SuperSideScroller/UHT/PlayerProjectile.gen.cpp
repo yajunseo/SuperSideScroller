@@ -13,8 +13,12 @@ void EmptyLinkFunctionForGeneratedCodePlayerProjectile() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UAudioComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
@@ -133,6 +137,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerProjectile() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_CollisionComp;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_DestroySound_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_DestroySound;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_DestroyEffect_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_DestroyEffect;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_ProjectileMovement_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_ProjectileMovement;
@@ -140,6 +152,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerProjectile() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_MeshComp_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_MeshComp;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ProjectileMovementSound_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_ProjectileMovementSound;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ProjectileEffect_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_ProjectileEffect;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -168,6 +188,20 @@ void EmptyLinkFunctionForGeneratedCodePlayerProjectile() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerProjectile_Statics::NewProp_CollisionComp = { "CollisionComp", nullptr, (EPropertyFlags)0x00100000000b0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerProjectile, CollisionComp), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerProjectile_Statics::NewProp_CollisionComp_MetaData), Z_Construct_UClass_APlayerProjectile_Statics::NewProp_CollisionComp_MetaData) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerProjectile_Statics::NewProp_DestroySound_MetaData[] = {
+		{ "Category", "PlayerProjectile" },
+		{ "ModuleRelativePath", "PlayerProjectile.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerProjectile_Statics::NewProp_DestroySound = { "DestroySound", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerProjectile, DestroySound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerProjectile_Statics::NewProp_DestroySound_MetaData), Z_Construct_UClass_APlayerProjectile_Statics::NewProp_DestroySound_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerProjectile_Statics::NewProp_DestroyEffect_MetaData[] = {
+		{ "Category", "PlayerProjectile" },
+		{ "ModuleRelativePath", "PlayerProjectile.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerProjectile_Statics::NewProp_DestroyEffect = { "DestroyEffect", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerProjectile, DestroyEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerProjectile_Statics::NewProp_DestroyEffect_MetaData), Z_Construct_UClass_APlayerProjectile_Statics::NewProp_DestroyEffect_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileMovement_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Movement" },
@@ -184,10 +218,30 @@ void EmptyLinkFunctionForGeneratedCodePlayerProjectile() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerProjectile_Statics::NewProp_MeshComp = { "MeshComp", nullptr, (EPropertyFlags)0x0040000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerProjectile, MeshComp), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerProjectile_Statics::NewProp_MeshComp_MetaData), Z_Construct_UClass_APlayerProjectile_Statics::NewProp_MeshComp_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileMovementSound_MetaData[] = {
+		{ "Category", "Sound" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "PlayerProjectile.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileMovementSound = { "ProjectileMovementSound", nullptr, (EPropertyFlags)0x00400000000b0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerProjectile, ProjectileMovementSound), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileMovementSound_MetaData), Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileMovementSound_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileEffect_MetaData[] = {
+		{ "Category", "Projectile" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "PlayerProjectile.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileEffect = { "ProjectileEffect", nullptr, (EPropertyFlags)0x00400000000b0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerProjectile, ProjectileEffect), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileEffect_MetaData), Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileEffect_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerProjectile_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerProjectile_Statics::NewProp_CollisionComp,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerProjectile_Statics::NewProp_DestroySound,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerProjectile_Statics::NewProp_DestroyEffect,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileMovement,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerProjectile_Statics::NewProp_MeshComp,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileMovementSound,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerProjectile_Statics::NewProp_ProjectileEffect,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlayerProjectile_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APlayerProjectile>::IsAbstract,
@@ -227,9 +281,9 @@ void EmptyLinkFunctionForGeneratedCodePlayerProjectile() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_PlayerProjectile_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APlayerProjectile, APlayerProjectile::StaticClass, TEXT("APlayerProjectile"), &Z_Registration_Info_UClass_APlayerProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerProjectile), 1682942802U) },
+		{ Z_Construct_UClass_APlayerProjectile, APlayerProjectile::StaticClass, TEXT("APlayerProjectile"), &Z_Registration_Info_UClass_APlayerProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerProjectile), 1435834832U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_PlayerProjectile_h_2198124854(TEXT("/Script/SuperSideScroller"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_PlayerProjectile_h_3556120443(TEXT("/Script/SuperSideScroller"),
 		Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_PlayerProjectile_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal5_Projects_SuperScroller_SuperSideScroller_Source_SuperSideScroller_PlayerProjectile_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

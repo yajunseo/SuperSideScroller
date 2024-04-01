@@ -24,10 +24,22 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, Category = Projectile)
 	class USphereComponent* CollisionComp;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	class USoundBase* DestroySound;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	class UParticleSystem* DestroyEffect;
+	
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
 	class UProjectileMovementComponent* ProjectileMovement;
 
 	UPROPERTY(EditAnywhere, Category = Projectile)
 	class UStaticMeshComponent* MeshComp;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Sound)
+	class UAudioComponent* ProjectileMovementSound;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Projectile)
+	class UParticleSystemComponent* ProjectileEffect;
 };
