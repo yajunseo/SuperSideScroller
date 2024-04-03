@@ -64,3 +64,16 @@ void ASuperSideScroller_Player::ThrowProjectile()
 		}
 	}
 }
+
+void ASuperSideScroller_Player::IncrementNumberofCollectables(int32 Value)
+{
+	if(Value <= 0)
+	{
+		return;
+	}
+	else
+	{
+		NumberofCollectables += Value;
+		UE_LOG(LogTemp, Warning, TEXT("%d"), NumberofCollectables);
+	}
+}

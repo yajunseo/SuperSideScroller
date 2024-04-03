@@ -35,4 +35,12 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	class UAnimMontage* ThrowMontage;
+	
+	int32 NumberofCollectables;
+
+public:
+	UFUNCTION(BlueprintPure)
+	int32 GetCurrentNumberofCollectables() {return NumberofCollectables;}
+
+	void IncrementNumberofCollectables(int32 Value);
 };
