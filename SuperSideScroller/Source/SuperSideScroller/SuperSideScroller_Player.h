@@ -38,6 +38,9 @@ private:
 	
 	int32 NumberofCollectables;
 
+	FTimerHandle PowerupHandle;
+	bool bHasPowerupActive;
+	
 public:
 	UFUNCTION(BlueprintPure)
 	int32 GetCurrentNumberofCollectables() {return NumberofCollectables;}
