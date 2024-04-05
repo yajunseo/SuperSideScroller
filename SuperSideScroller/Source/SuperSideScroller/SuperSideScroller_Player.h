@@ -22,6 +22,7 @@ protected:
 	void Sprint();
 	void StopSprint();
 	void ThrowProjectile();
+	void EndPowerup();
 	
 	UPROPERTY(EditAnywhere, Category = "Input")
 	class UInputMappingContext* IC_Character;
@@ -46,4 +47,6 @@ public:
 	int32 GetCurrentNumberofCollectables() {return NumberofCollectables;}
 
 	void IncrementNumberofCollectables(int32 Value);
+
+	void IncreaseMovementPowerup();
 };
