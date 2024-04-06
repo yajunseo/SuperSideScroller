@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unreal5 projects\\superscroller\\supersidescroller\\intermediate\\build\\win64\\unrealeditor\\inc\\supersidescroller\\uht\\supersidescroller_brick.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unreal5 projects\\superscroller\\supersidescroller\\intermediate\\build\\win64\\x64\\supersidescrollereditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\unreal5 projects\\superscroller\\supersidescroller\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\supersidescroller\\definitions.supersidescroller.h",
+            "c:\\unreal5 projects\\superscroller\\supersidescroller\\source\\supersidescroller\\supersidescroller_brick.h",
+            "c:\\unreal5 projects\\superscroller\\supersidescroller\\intermediate\\build\\win64\\unrealeditor\\inc\\supersidescroller\\uht\\supersidescroller_brick.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
